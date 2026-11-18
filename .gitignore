@@ -1,0 +1,114 @@
+# ==============================================================================
+# PlatformIO
+# ==============================================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+
+# Compilation databases
+compile_commands.json
+
+# ==============================================================================
+# ESP-IDF & CMake
+# ==============================================================================
+# ESP-IDF build directory (when building with idf.py or native CMake)
+build/
+
+# ESP-IDF component manager download directory
+managed_components/
+
+# Generated sdkconfig files
+# sdkconfig.defaults and its variants contain source-controlled overrides
+sdkconfig
+sdkconfig.old
+sdkconfig.*
+!sdkconfig.defaults
+!sdkconfig.defaults.*
+!sdkconfig.ci
+
+# ==============================================================================
+# Compiled Binaries & Object Files
+# ==============================================================================
+*.o
+*.obj
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# ==============================================================================
+# IDEs & Editors
+# ==============================================================================
+# VS Code (PlatformIO auto-generates c_cpp_properties.json and launch.json with machine-specific paths)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Editor backups and swap files
+*.swp
+*.swo
+*~
+*.bak
+
+# ==============================================================================
+# Environment & AI Assistant Local Configuration
+# ==============================================================================
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.claude/*.local.json
+*.local.json
+
+# Python virtual environments & bytecode (if helper scripts are used)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.fuse_hidden*
+.Trash-*
+
+# ==============================================================================
+# Logs & Crash Dumps
+# ==============================================================================
+*.log
+*.dump

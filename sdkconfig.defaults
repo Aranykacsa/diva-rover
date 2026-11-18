@@ -1,0 +1,5 @@
+# This board (ESP32-S3-DevKitC-1) has no USB-UART bridge chip -- the only
+# serial connection available (e.g. /dev/ttyACM0) is the native USB-Serial/JTAG
+# peripheral. Route the console there instead of the default physical UART0
+# pins, or ESP_LOG output never reaches whatever is monitoring the USB port.
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y
